@@ -1,0 +1,28 @@
+.message__body {
+  padding: 0 2rem;
+}
+
+@media only screen and (min-width: 600px) {
+  .message__body {
+    width: 650px;
+    margin: auto;
+  }
+}
+
+.message {
+  background: rgb(230, 230, 230) !important;
+  margin-top: 1rem !important;
+  width: fit-content !important;
+}
+
+.message__user {
+  background: linear-gradient(
+    rgba(4, 0, 255, 0.719),
+    rgba(228, 9, 118, 0.671),
+    rgba(161, 7, 128, 0.781)
+  ) !important;
+  margin-top: 1rem !important;
+  width: fit-content !important;
+  text-align: left !important;
+  margin-left: auto;
+}
